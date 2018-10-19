@@ -3,7 +3,7 @@
 
 ## How to Use it
 
-    docker run -it -v <your directory>:/documents/ Tommassino/docker-sphinx
+    docker run -it -v <your directory>:/documents/ tommassino/docker-sphinx-python3
 
 Use `sphinx-quickstart` to create a new Sphinx project, and `make` to use the auto generated `Makefile` in an existing project. More info in the [Sphinx tutorial](http://sphinx-doc.org/tutorial.html).
 
